@@ -16,7 +16,6 @@ public class ProductManager {
                 Product[] tmp = new Product[result.length + 1];
                 for (int i = 0; i < result.length; i++) {
                     tmp[i] = result[i];
-
                 }
                 tmp[tmp.length - 1] =product;
                 result = tmp;
