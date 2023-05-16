@@ -62,7 +62,7 @@ class ProductManagerTest {
         manager.add(Smartphone1);
         manager.add(Smartphone2);
         manager.add(Smartphone3);
-        Product[] actual = manager.searchBy("IPhone");
+        Product[] actual = manager.searchBy("Iphone");
         Product[] expected = {Smartphone2};
         Assertions.assertArrayEquals(expected, actual);
 
